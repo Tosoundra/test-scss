@@ -1,5 +1,7 @@
 @use './styles/mixins.scss';
+@use './styles/variables.scss';
 
 .div {
 	@include mixins.A;
+	background-color: variables.$color;
 }
