@@ -1,5 +1,5 @@
-// import 'slick-carousel/slick/slick-theme.css';
-// import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
+import 'slick-carousel/slick/slick.css';
 import { sliders } from '../../assets/constants/sliders';
 import { Footer } from '../../blocks/Footer/Footer';
 import { Header } from '../../blocks/Header.jsx/Header';
