@@ -1,0 +1,10 @@
+@use '/src/styles/colorVariables.scss';
+@use '/src/styles/utilsVariables.scss';
+@use '/src/styles/fontsVariables.scss';
+
+.slide {
+	position: relative;
+	width: 100%;
+	height: 716px;
+	background-color: colorVariables.$MAIN_COLOR;
+}

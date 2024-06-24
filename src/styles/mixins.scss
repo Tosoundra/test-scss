@@ -1,7 +1,17 @@
-@use './variables.scss';
-@mixin A {
-	width: 100px;
-	height: 100px;
-	background-color: red;
-	background-color: variables.$color;
+@use './colorVariables.scss';
+@use './utilsVariables.scss';
+@use './fontsVariables.scss';
+
+@mixin CARD_TITLE_SETUP {
+	position: absolute;
+	left: 32px;
+	bottom: 65px;
+	font-size: fontsVariables.$FONT_SIZE_MAIN;
+	font-weight: fontsVariables.$FONT_WEIGHT_BOLD;
+}
+
+@mixin BLOCK_GAP {
+	display: flex;
+	flex-direction: column;
+	gap: 64px;
 }

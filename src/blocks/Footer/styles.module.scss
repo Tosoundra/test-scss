@@ -1,0 +1,25 @@
+@use '/src/styles/colorVariables.scss';
+@use '/src/styles/utilsVariables.scss';
+@use '/src/styles/fontsVariables.scss';
+
+.footer {
+	height: 245px;
+	display: flex;
+	justify-content: space-evenly;
+	padding-top: 51px;
+	background-color: colorVariables.$MAIN_COLOR;
+
+	.company-name {
+		font-size: fontsVariables.$FONT_SIZE_COMPANY-NAME;
+		font-weight: fontsVariables.$FONT_WEIGHT_BOLD;
+	}
+
+	.link-container {
+		display: flex;
+		flex-direction: column;
+		gap: utilsVariables.$ELEMENTS_GAP;
+		.link {
+			font-size: fontsVariables.$FONT_SIZE_FOOTER-LINK;
+		}
+	}
+}
